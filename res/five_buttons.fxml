@@ -12,6 +12,6 @@
 
     <Text text="Five Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
 
-    <Button text="Close" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <Button text="Close" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#handleClose"/>
     <Button text ="Blue ***" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
 </GridPane>
